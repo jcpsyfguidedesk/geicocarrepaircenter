@@ -1,0 +1,53 @@
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+ <meta name="google-site-verification" content="F-YT3uGrK1_cfVLDatRNevo1nokWI7cgbPbSuD2WfCA" />
+    <meta name="msvalidate.01" content="9F766CA13E27942C536E6EEFAD06E531" />
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Independent guide explaining Geico car repair claims, vehicle damage estimates, insurance repair process, and how to choose a repair facility.">
+    <meta name="keywords" content="Geico car repair, Geico insurance claim, auto insurance repair process, collision repair guide">
+    <meta name="author" content="Independent Auto Insurance Resource Center">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Geico Car Repair Guide">
+    <meta property="og:description" content="Professional independent resource explaining the Geico car repair and insurance claim process.">
+    <meta property="og:type" content="website">
+
+    <!-- Mobile Optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{ super() }}
+
+{% endblock %}
+
+{% block header %}
+<div style="background:#0a3d62;padding:20px 0;color:white;text-align:center;">
+    <h1 style="margin:0;font-size:28px;">Geico Car Repair Guide</h1>
+    <p style="margin:5px 0 0;font-size:14px;">
+        Independent Auto Insurance Repair Information Resource
+    </p>
+</div>
+{{ super() }}
+{% endblock %}
+
+{% block footer %}
+<div style="margin-top:40px;padding:30px 0;background:#f4f4f4;text-align:center;font-size:14px;color:#555;">
+
+    <p>
+        <strong>Disclaimer:</strong> This website is not affiliated with, endorsed by, or sponsored by
+        GEICO. All trademarks belong to their respective owners.
+    </p>
+
+    <p>
+        This site provides independent educational information regarding auto insurance
+        repair processes and claim procedures.
+    </p>
+
+    <p>
+        © 2026 Independent Auto Insurance Resource Center
+    </p>
+
+</div>
+{% endblock %}
