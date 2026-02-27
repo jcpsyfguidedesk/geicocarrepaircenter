@@ -1,6 +1,21 @@
 Geico Car Repair Help & Insurance Claim Guide
 =============================================
 
+.. raw:: html
+
+   <div style="margin-top:15px;margin-bottom:25px;">
+       <a href="https://us00.net/?IoNI0ht3zGaS0BubbcYuQjK9M6uHBar0uGxyH1cxn0003WPCQ0pfgSqv3rXwxckrYyCZprj7h7NO68" 
+          style="background-color:#0a3d62;
+                 color:white;
+                 padding:12px 24px;
+                 text-decoration:none;
+                 border-radius:6px;
+                 font-weight:600;
+                 display:inline-block;">
+          Start the Repair Process Guide
+       </a>
+   </div>
+
 Welcome to our independent resource guide for drivers searching for information about Geico car repair options, insurance claims, and vehicle damage assistance.
 
 **Important Notice:**  
@@ -20,7 +35,7 @@ If you have auto insurance coverage and need vehicle repairs after an accident, 
 4. Choosing a repair facility
 5. Completing repairs and payment processing
 
-Many insurers, including GEICO, may offer recommended repair networks. However, policyholders usually have the legal right to choose their own repair shop.
+Many insurers may offer recommended repair networks. However, policyholders usually have the legal right to choose their own repair shop.
 
 --------------------------------------------------
 
@@ -69,10 +84,10 @@ Before selecting a shop, consider:
 --------------------------------------------------
 
 Common Questions About Geico Car Repair
-----------------------------------------
+---------------------------------------
 
 Can I choose my own repair shop?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In most states, yes. Insurance companies cannot require you to use a specific shop.
 
 Will insurance pay the repair shop directly?
