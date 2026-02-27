@@ -1,53 +1,77 @@
-# -- Path setup --------------------------------------------------------------
+# -----------------------------------------------------
+# Path Setup
+# -----------------------------------------------------
 
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
 
-# -- Project information -----------------------------------------------------
+# -----------------------------------------------------
+# Project Information
+# -----------------------------------------------------
 
-project = 'Understanding the Geico Car Repair Process'
-author = 'Independent Auto Insurance Resource Center'
-copyright = '2026, Independent Auto Insurance Resource Center'
-release = '1.0'
+project = "Understanding the Geico Car Repair Process"
+author = "Independent Auto Insurance Resource Center"
+copyright = "2026, Independent Auto Insurance Resource Center"
+release = "1.0"
 
-# -- General configuration ---------------------------------------------------
+# -----------------------------------------------------
+# General Configuration
+# -----------------------------------------------------
 
 extensions = [
-    'sphinx.ext.githubpages',   # for production deployment
+    "sphinx.ext.githubpages",     # Production deployment
+    "sphinx.ext.autosectionlabel" # Clean internal linking
 ]
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-language = 'en'
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+language = "en"
 
-# -- HTML output -------------------------------------------------------------
+# Prevent duplicate section warnings
+autosectionlabel_prefix_document = True
 
-html_theme = 'furo'   # More modern and professional than RTD
+# -----------------------------------------------------
+# HTML Output
+# -----------------------------------------------------
 
-html_title = "Understanding the Geico Car Repair Process"
-html_static_path = ['_static']
+html_theme = "pydata_sphinx_theme"
+
+html_title = "Geico Car Repair Information | Insurance Claim Process Guide"
+html_static_path = ["_static"]
+
+html_css_files = [
+    "custom.css",
+]
 
 html_theme_options = {
-    "navigation_with_keys": True,
+    "navbar_align": "left",
+    "navigation_depth": 3,
+    "show_prev_next": False,
+    "navbar_start": ["navbar-logo"],
+    "navbar_center": ["navbar-nav"],
+    "navbar_end": ["search-field"],
+    "footer_start": ["copyright"],
+    "footer_center": [],
+    "footer_end": [],
 }
 
-# Remove unnecessary clutter
+# Logo (optional but recommended)
+html_logo = "_static/logo.png"
+html_favicon = "_static/favicon.ico"
+
+# -----------------------------------------------------
+# Clean Output Settings
+# -----------------------------------------------------
+
 html_show_sphinx = False
 html_show_sourcelink = False
 html_copy_source = False
 
-# -- SEO & Branding ----------------------------------------------------------
-
-html_favicon = '_static/favicon.ico'  # optional
-html_logo = '_static/logo.png'        # optional
-
-# -- Sidebar (Clean Layout) --------------------------------------------------
+# -----------------------------------------------------
+# Sidebar Configuration
+# -----------------------------------------------------
 
 html_sidebars = {
-    "**": [
-        "sidebar/brand.html",
-        "sidebar/search.html",
-        "sidebar/navigation.html",
-    ]
+    "**": ["sidebar-nav-bs.html"]
 }
